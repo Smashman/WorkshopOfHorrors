@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #e4dbf0;
+    font-family: Arial, sans-serif;
+    line-height: 19px;
+}
+.content > div {
+    position: absolute;
+    width: 650px;
+    left: 167px;
+}
+.emph {
+    font-weight: bold;
+    font-style: italic;
+}
+.italic {
+    font-style: italic;
+}
+.container, .content {
+    background: top center no-repeat #16121c;
+}
+.content {
+    width: 990px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    position: absolute;
+    background-position: top;
+}
+.button:hover {
+    background-position: bottom;
+}
+
+#tf2 {
+    width: 221px;
+    height: 82px;
+    top: 62px;
+    left: 141px;
+    background-image: url(../images/woh_tf2_button.jpg);
+}
+
+.workshop {
+    width: 532px;
+    height: 136px;
+    left: 229px;
+}
+
+.server {
+    height: 131px;
+    width: 396px;
+    bottom: 657px;
+}
+#eu {
+    background-image: url(../images/woh_tf2m_button_eu.jpg);
+    right: 98px;
+}
+#us {
+    background-image: url(../images/woh_tf2m_button_us.jpg);
+    left: 98px;
+}
+
+#timewarp {
+    width: 172px;
+    height: 187px;
+    background-image: url(../images/woh_timewarp_button.jpg);
+    bottom: 15px;
+    left: 62px;
+}
+
+#tf2maps {
+    width: 275px;
+    height: 66px;
+    bottom: 347px;
+    left: 245px;
+    background-image: url(../images/woh_tf2m_button.jpg);
+}
+
+#modstf {
+    width: 207px;
+    height: 62px;
+    bottom: 349px;
+    right: 247px;
+    background-image: url(../images/woh_modstf_button.jpg);
+}
+
+#container_01, #content_01 {
+    height: 1070px;
+    background-image: url(../images/woh_bg1.jpg);
+}
+#container_02, #content_02 {
+    height: 452px;
+    background-image: url(../images/woh_bg2.jpg);
+}
+#content_02 > div {
+    top: 215px;
+}
+#container_03, #content_03 {
+    height: 1520px;
+    background-image: url(../images/woh_bg3.jpg);
+}
+#content_03 > div {
+    bottom: 517px;
+}
+#content_03 > .workshop {
+    bottom: 343px;
+    background-image: url(../images/woh_workshop_button_items.jpg);
+}
+#container_04, #content_04 {
+    height: 1818px;
+    background-image: url(../images/woh_bg4.jpg);
+}
+#content_04 > div {
+    top: 752px;
+}
+#content_04 > .workshop {
+    background-image: url(../images/woh_workshop_button_maps.jpg);
+    bottom: 808px;
+}
+#container_05, #content_05 {
+    height: 1492px;
+    background-image: url(../images/woh_bg5.jpg);
+}
+#content_05 > div:first-of-type {
+    bottom: 411px;
+}
+#content_05 > div:last-of-type {
+    bottom: 61px;
+    left: 244px;
+    width: 573px;
+}
+#content_05 > .workshop {
+    background-image: url(../images/woh_workshop_button_unusuals.jpg);
+    bottom: 223px;
+}
+#container_06, #content_06 {
+    height: 1259px;
+    background-image: url(../images/woh_bg6.jpg);
+}
+
+#credits {
+    top: 500px;
+    width: 626px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    left: auto;
+}
+#credits > .row {
+    width: 636px;
+    height: 80px;
+    margin-bottom: 8px;
+    position: relative;
+    float: left;
+}
+.steam {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    background: #333038;
+    padding: 4px;
+    border-radius: 4px;
+    text-align: left;
+    width: 300px;
+    height: 72px;
+}
+.steam:hover {
+    background: #2b2730;
+}
+.steam:last-child {
+    margin: 0 auto;
+    float: none;
+    display: inline-block;
+}
+.iconholder {
+    background: #8650ac;
+    height: 64px;
+    width: 64px;
+    padding: 4px;
+    float: left;
+    border-radius: 3px;
+}
+.name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 72px);
+    color: #9bc862;
+    padding-left: 13px;
+    line-height: 36px;
+    width: 215px;
+    font-size: 18px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    font-weight: bold;
+}
+.role {
+    position: relative;
+    float: left;
+    line-height: 36px;
+    width: 215px;
+    padding-left: 13px;
+    font-size: 14px;
+    color: #e4dbf0;
+}
+.role.long {
+    line-height: 18px;
+}
+
+#legal {
+    position: absolute;
+    left: 51px;
+    bottom: 70px;
+    width: 888px;
+    height: 30px;
+    display: block;
+    background-image: url(http://media.steampowered.com/apps/tf2/blizzbobarrabas/legal.png);
+}
