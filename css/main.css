@@ -8,7 +8,7 @@ body {
 .content > div {
     position: absolute;
     width: 650px;
-    left: 167px;
+    left: 272px;
 }
 .emph {
     font-weight: bold;
@@ -21,7 +21,7 @@ body {
     background: top center no-repeat #16121c;
 }
 .content {
-    width: 990px;
+    width: 1200px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -38,14 +38,14 @@ body {
     width: 221px;
     height: 82px;
     top: 62px;
-    left: 141px;
+    left: 246px;
     background-image: url(../images/woh_tf2_button.jpg);
 }
 
 .workshop {
     width: 532px;
     height: 136px;
-    left: 229px;
+    left: 334px;
 }
 
 .server {
@@ -55,11 +55,11 @@ body {
 }
 #eu {
     background-image: url(../images/woh_tf2m_button_eu.jpg);
-    right: 98px;
+    right: 203px;
 }
 #us {
     background-image: url(../images/woh_tf2m_button_us.jpg);
-    left: 98px;
+    left: 203px;
 }
 
 #timewarp {
@@ -67,14 +67,14 @@ body {
     height: 187px;
     background-image: url(../images/woh_timewarp_button.jpg);
     bottom: 15px;
-    left: 62px;
+    left: 167px;
 }
 
 #tf2maps {
     width: 275px;
     height: 66px;
     bottom: 347px;
-    left: 245px;
+    left: 350px;
     background-image: url(../images/woh_tf2m_button.jpg);
 }
 
@@ -82,7 +82,7 @@ body {
     width: 207px;
     height: 62px;
     bottom: 349px;
-    right: 247px;
+    right: 352px;
     background-image: url(../images/woh_modstf_button.jpg);
 }
 
@@ -128,7 +128,7 @@ body {
 }
 #content_05 > div:last-of-type {
     bottom: 61px;
-    left: 244px;
+    left: 349px;
     width: 573px;
 }
 #content_05 > .workshop {
