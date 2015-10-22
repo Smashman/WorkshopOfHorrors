@@ -54,64 +54,22 @@
         </div>
         <div class="container" id="container_06">
             <div class="content" id="content_06">
-
+                <?php include 'php/credits.php';?>
                 <div id="credits">
                     <div class="row">
-                        <a class="steam" href="http://steamcommunity.com/id/RetroCitrus" target="_blank">
-                            <div class="iconholder">
-                                <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/bc/ac1abf80d8a7449db891b487b74d5940203dedf3_medium.jpg" />
-                            </div>
-                            <div class="name">retro~</div>
-                            <div class="role long">Project Lead and Organizer, Web Assets</div>
-                        </a>
-                        <a class="steam" href="http://steamcommunity.com/id/void001" target="_blank">
-                            <div class="iconholder">
-                                <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/bc/bc7ea9279704f2191e814334fcd45584c55df8f3_medium.jpg" />
-                            </div>
-                            <div class="name">void~</div>
-                            <div class="role long">Project Lead and Organizer, Web Assets</div>
-                        </a>
+                        <?php steam_block(87084440,"Project Lead and Organizer, Web Assets",true);?>
+                        <?php steam_block(33885066,"Project Lead and Organizer, Web Assets",true);?>
                     </div>
                     <div class="row">
-                        <a class="steam" href="http://steamcommunity.com/id/smashman2004" target="_blank">
-                            <div class="iconholder">
-                                <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/bc/5d1f164e73126a2aa4b9735a8e599c1f3c6f9785_medium.jpg" />
-                            </div>
-                            <div class="name">smash.mn</div>
-                            <div class="role">Web Developer</div>
-                        </a>
-                        <a class="steam" href="http://steamcommunity.com/id/nightsfrost" target="_blank">
-                            <div class="iconholder">
-                                <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/bc/cc562e7eef453b28246d08a0fc845f04d015fe09_medium.jpg" />
-                            </div>
-                            <div class="name">It's the Great Pumpkin, Fr0z3nR!</div>
-                            <div class="role">Map Liaison</div>
-                        </a>
+                        <?php steam_block(39933033,"Web Developer");?>
+                        <?php steam_block(52978826,"Map Liaison");?>
                     </div>
                     <div class="row">
-                        <a class="steam" href="http://steamcommunity.com/id/sky_216" target="_blank">
-                            <div class="iconholder">
-                                <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/bc/18fedf1a52e44447d4249740d9719f36ac33c35a_medium.jpg" />
-                            </div>
-                            <div class="name">Sky</div>
-                            <div class="role">Models</div>
-                        </a>
-                        <a class="steam" href="http://steamcommunity.com/id/donhonk" target="_blank">
-                            <div class="iconholder">
-                                <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/bc/4d0208a55e9ca11706f4074f7a24989068657c11_medium.jpg" />
-                            </div>
-                            <div class="name">donhonk</div>
-                            <div class="role">Models</div>
-                        </a>
+                        <?php steam_block(81714101,"Models");?>
+                        <?php steam_block(11840527,"Models");?>
                     </div>
                     <div class="row">
-                        <a class="steam" href="http://steamcommunity.com/id/bapaul" target="_blank">
-                            <div class="iconholder">
-                                <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/bc/8b68592e87b4395699a52ce5b3dae1d9b11b3477_medium.jpg" />
-                            </div>
-                            <div class="name">BOOpaul</div>
-                            <div class="role">Models</div>
-                        </a>
+                        <?php steam_block(59090930,"Models");?>
                     </div>
                 </div>
 
